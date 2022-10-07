@@ -25,6 +25,8 @@ Para comprobarlo vemos que abajo en la linea celeste nos dice la version y el no
  Para guardar estas dependencias,listarlas en un archivo aparte
  ```python
 pip freeze > requirements.txt
+
+pip list --format=freeze > requirements.txt
 ```
 Aca se guardan los paquetes que instalamos.
 
